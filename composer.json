@@ -1,12 +1,25 @@
 {
-  "name":"tostiheld/easy-git",
-  "description":"Easily use or manage git repositories in your PHP project",
-  "version":"0.1",
-  "keywords":["git"],
-  "license":"MIT",
-  "type":"library",
-  "require":{
+  "name": "tostiheld/easy-git",
+  "description": "Easily use or manage git repositories in your PHP project",
+  "version": "0.1",
+  "keywords": [
+    "git"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Schraven",
+      "email": "schraven.thomas@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
     "php": ">=5.6.19",
     "ext-git2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Git\\": "src/"
+    }
   }
 }
