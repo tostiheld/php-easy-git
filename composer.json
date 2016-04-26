@@ -1,0 +1,12 @@
+{
+  "name":"tostiheld/easy-git",
+  "description":"Easily use or manage git repositories in your PHP project",
+  "version":"0.1",
+  "keywords":["git"],
+  "license":"",
+  "type":"library",
+  "require":{
+    "php": ">=5.6.19",
+    "ext-git2": "*"
+  }
+}
