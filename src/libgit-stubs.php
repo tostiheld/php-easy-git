@@ -379,7 +379,7 @@ function git_patch_size($patch, $include_context, $include_hunk_headers, $includ
 function git_patch_print($patch, $print_cb, $payload){}
 function git_patch_to_str($patch){}
 function git_merge_base($repo, $one, $two){}
-function git_merge_base_many($repo, $length, $input_array[]){}
+function git_merge_base_many($repo, $length, $input_array){}
 function git_merge_head_from_ref($repo, $ref){}
 function git_merge_head_from_fetchhead($repo, $branch_name, $remote_url, $oid){}
 function git_merge_head_from_oid($repo, $oid){}
