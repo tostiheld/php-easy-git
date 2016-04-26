@@ -3,7 +3,10 @@
   "description": "Easily use or manage git repositories in your PHP project",
   "version": "0.1",
   "keywords": [
-    "git"
+    "git",
+    "libgit",
+    "libgit2",
+    "bindings"
   ],
   "license": "MIT",
   "authors": [
